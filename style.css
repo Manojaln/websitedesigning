@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+
+}
+
+nav {
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav .menu{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+}
+
+.menu .logo img {
+    width:75px;
+    border-radius: 10%;
+    position: absolute;
+    top: 4;
+    left: 4;
+    bottom: 0;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    align-items: ;
+}
+
+.menu ul li a:hover{
+    color: black;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    
+}
+
+a{  
+    display: block;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 0 10px;
+}
+a:hover{
+    background-color: #ee980e;
+    color: black;
+
+}
+.NAVBTN button {
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 2px solid orange;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+    color:black;
+    background: transparent;
+    
+}
+
+.NAVBTN button:hover { 
+    color:#ec0707;
+}
+
+.container{
+    width:1200px;
+    height: 85%;
+    margin:0 auto;
+    padding: 0 20px;
+}
+.InnerDiv {
+    height:80%;
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    width: 50%;
+}
+.center .title{
+    color:#fff;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.center .content {
+    color: rgb(59, 65, 63);
+    font-size: 18px;
+    margin: 11px 0 25px 0;
+}
+footer{
+    color: #fff;
+    text-align: center;
+    font-size: 75%;
+    padding: 10px;
+}
+
